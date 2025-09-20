@@ -13,18 +13,18 @@ Weekly Development Log
 
 **Week 2 (September 1 - 7)**
 
--Goal:** Create and submit the formal project proposal.
--Accomplished:** Wrote and submitted the project proposal by the September 5th deadline.
+-Goal: Create and submit the formal project proposal.
+-Accomplished: Wrote and submitted the project proposal by the September 5th deadline.
 
 **Week 3 (September 8 - 14)**
 
--Goal:** Install all necessary software for the project.
--Accomplished:** Installed Python, Visual Studio Code, and Git.
+-Goal: Install all necessary software for the project.
+-Accomplished: Installed Python, Visual Studio Code, and Git.
 
 **Week 4 (September 15 - 21)**
 
--Goal:** Create the project repository and learn the basics of Flask.
--Accomplished:** Created the public GitHub repository. Learned the core concepts of Flask (`app.py`, routes, templates) in preparation for our first check-in.
+-Goal: Create the project repository and learn the basics of Flask.
+-Accomplished: Created the public GitHub repository. Learned the core concepts of Flask (`app.py`, routes, templates) in preparation for our first check-in.
 -Next Step:** Begin coding the 'Create' feature next week.
 
 **Week 5 (Sep 22 - Oct 5)**
