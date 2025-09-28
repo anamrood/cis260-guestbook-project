@@ -29,3 +29,10 @@ Weekly Development Log
 
 **Week 5-6 (Sep 22 - Oct 5)**
 Goal:Build the "Create" feature. 
+
+Update for Week 5 (Sep 22 - 28)
+Goal: Build the front-end form.
+
+-Accomplished: Created the index.html file with a basic form and the initial app.py file with a Flask route to display the page. The application now runs locally and shows the form.
+
+-Next Step: Connect the form to the database to save user messages.
