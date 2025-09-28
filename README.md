@@ -27,5 +27,5 @@ Weekly Development Log
 -Accomplished: Created the public GitHub repository. Learned the core concepts of Flask (`app.py`, routes, templates) in preparation for our first check-in.
 -Next Step:** Begin coding the 'Create' feature next week.
 
-**Week 5 (Sep 22 - Oct 5)**
+**Week 5-6 (Sep 22 - Oct 5)**
 Goal:Build the "Create" feature. 
