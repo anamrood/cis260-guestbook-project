@@ -27,12 +27,35 @@ Weekly Development Log
 -Accomplished: Created the public GitHub repository. Learned the core concepts of Flask (`app.py`, routes, templates) in preparation for our first check-in.
 -Next Step:** Begin coding the 'Create' feature next week.
 
-**Week 5-6 (Sep 22 - Oct 5)**
-Goal:Build the "Create" feature. 
+**Week 5 (September 22 - 28)**
+Goal: I created the initial starting structure of the Flask application and learned the Git workflow.
 
-Update for Week 5 (Sep 22 - 28)
-Goal: Build the front-end form.
+Accomplished:
 
--Accomplished: Created the index.html file with a basic form and the initial app.py file with a Flask route to display the page. The application now runs locally and shows the form.
+Set up the project's file structure by creating the app.py file and a templates folder containing index.html.
 
--Next Step: Connect the form to the database to save user messages.
+Wrote the initial Flask code in app.py to define a route for the homepage and render the index.html template.
+
+Successfully ran the web server for the first time from the terminal using the py app.py command.
+
+Confirmed the application was working by opening http://127.0.0.1:5000 in a web browser and viewing the basic HTML form.
+
+Initialized the local Git repository using the git init command.
+
+Used the built-in 'Publish to GitHub' feature in VS Code to automatically connect the local repository to the remote one on GitHub.
+
+Learned and executed the full Git workflow to save my work: preparing files with git add ., saving a snapshot with git commit -m "...", and uploading to GitHub with git push.
+
+Next Step: Connect the form to the database to save user messages.
+
+### **Week 6 (September 29 - October 5)**
+* **Goal:** Make the guestbook form functional by connecting it to the database.
+* **Accomplished:**
+    1.  Installed the database package by running **`py -m pip install flask-sqlalchemy`** in the terminal.
+    2.  Updated **`index.html`** by changing the `<form>` tag to `<form method="POST">` to allow it to send data.
+    3.  Modified **`app.py`** to include the SQLAlchemy configuration, the `GuestbookEntry` data model, and the back-end logic to handle `POST` requests and save the form data to the database using `db.session.commit()`.
+    4.  Created a temporary script, **`create_db.py`**, to initialize the database.
+    5.  Ran the script from the terminal using **`py create_db.py`**, which successfully created the `guestbook.db` file.
+    6.  Finally, I tested the main application by running **`py app.py`** and confirmed that submitting the form saves the data without errors.
+
+* **Next Step:** Build the 'Read' feature to display the saved messages on the page.
