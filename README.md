@@ -36,7 +36,7 @@ Set up the project's file structure by creating the app.py file and a templates 
 
 Wrote the initial Flask code in app.py to define a route for the homepage and render the index.html template.
 
-Successfully ran the web server for the first time from the terminal using the py app.py command.
+Successfully ran the web server for the first time from the terminal using the py app.py command.  **(py app.py)**
 
 Confirmed the application was working by opening http://127.0.0.1:5000 in a web browser and viewing the basic HTML form.
 
@@ -44,7 +44,7 @@ Initialized the local Git repository using the git init command.
 
 Used the built-in 'Publish to GitHub' feature in VS Code to automatically connect the local repository to the remote one on GitHub.
 
-Learned and executed the full Git workflow to save my work: preparing files with git add ., saving a snapshot with git commit -m "...", and uploading to GitHub with git push.
+Learned and executed the full Git workflow to save my work: preparing files with git add ., saving a snapshot with git commit -m "...", and uploading to GitHub with git push. **( git add . , git commit -m "..." , git push)**
 
 Next Step: Connect the form to the database to save user messages.
 
