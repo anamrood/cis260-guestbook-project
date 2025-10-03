@@ -55,7 +55,13 @@ Next Step: Connect the form to the database to save user messages.
     2.  Updated **`index.html`** by changing the `<form>` tag to `<form method="POST">` to allow it to send data.
     3.  Modified **`app.py`** to include the SQLAlchemy configuration, the `GuestbookEntry` data model, and the back-end logic to handle `POST` requests and save the form data to the database using `db.session.commit()`.
     4.  Created a temporary script, **`create_db.py`**, to initialize the database.
-    5.  Ran the script from the terminal using **`py create_db.py`**, which successfully created the `guestbook.db` file.
+    5.  Ran the script from the terminal using **`py create_db.py`**, which successfully created the `guestbook.db` file with the code
+     from app import app, db
+
+with app.app_context():
+    db.create_all()
+
+print("Database created successfully!").
     6.  Finally, I tested the main application by running **`py app.py`** and confirmed that submitting the form saves the data without errors.
 
 * **Next Step:** Build the 'Read' feature to display the saved messages on the page.
