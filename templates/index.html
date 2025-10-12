@@ -17,5 +17,16 @@
         <button type="submit">Submit</button>
     </form>
 
+    <hr>
+
+    <h2>Messages</h2>
+    <ul>
+        {% for entry in entries %}
+            <li>
+                <strong>{{ entry.name }}:</strong> {{ entry.message }}
+            </li>
+        {% endfor %}
+    </ul>
+
 </body>
 </html>
