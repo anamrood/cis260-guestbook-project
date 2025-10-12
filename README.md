@@ -65,3 +65,20 @@ print("Database created successfully!").
     6.  Finally, I tested the main application by running **`py app.py`** and confirmed that submitting the form saves the data without errors.
 
 * **Next Step:** Build the 'Read' feature to display the saved messages on the page.
+
+### **Week 7 (October 6 - October 12)**
+**Goal:** Create the Read feature to be able to see messages on the website. 
+**Accomplished:** 
+1. First, I went into my app.py file and changed the home() function. I added a line that uses GuestbookEntry.query.all() to pull all the saved messages out of the database and put them into a list.
+
+2. Then, I had to update the return render_template() line so it would pass that list of messages over to my index.html page, making the data available to the front-end.
+
+3. After that, I switched over to the index.html file and added a new "Messages" section below the form.
+
+4. The interesting part was using a Jinja2 for loop, which looks like {% for entry in entries %}, to go through each message that the Python file sent over.
+
+5. Inside that loop, I used placeholders like {{ entry.name }} and {{ entry.message }} to actually print out the name and message for each post as a new list item.
+
+6. To finish up, I ran the app with py app.py and confirmed that all the old messages I had submitted were finally there on the page.
+
+Next Step: Prepare for the Midterm Presentation.
