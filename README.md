@@ -25,7 +25,7 @@ Weekly Development Log
 
 -Goal: Create the project repository and learn the basics of Flask.
 -Accomplished: Created the public GitHub repository. Learned the core concepts of Flask (`app.py`, routes, templates) in preparation for our first check-in.
--Next Step:** Begin coding the 'Create' feature next week.
+**Next Step:** Begin coding the 'Create' feature next week.
 
 **Week 5 (September 22 - 28)**
 Goal: I created the initial starting structure of the Flask application and learned the Git workflow.
@@ -46,7 +46,7 @@ Used the built-in 'Publish to GitHub' feature in VS Code to automatically connec
 
 Learned and executed the full Git workflow to save my work: preparing files with git add ., saving a snapshot with git commit -m "...", and uploading to GitHub with git push. **( git add . , git commit -m "..." , git push)**
 
-Next Step: Connect the form to the database to save user messages.
+**Next Step:** Connect the form to the database to save user messages.
 
 ### **Week 6 (September 29 - October 5)**
 * **Goal:** Make the guestbook form functional by connecting it to the database.
@@ -64,7 +64,7 @@ with app.app_context():
 print("Database created successfully!").
     6.  Finally, I tested the main application by running **`py app.py`** and confirmed that submitting the form saves the data without errors.
 
-* **Next Step:** Build the 'Read' feature to display the saved messages on the page.
+**Next Step:** Build the 'Read' feature to display the saved messages on the page.
 
 ### **Week 7 (October 6 - October 12)**
 **Goal:** Create the Read feature to be able to see messages on the website. 
@@ -82,3 +82,8 @@ print("Database created successfully!").
 6. To finish up, I ran the app with py app.py and confirmed that all the old messages I had submitted were finally there on the page.
 
 Next Step: Prepare for the Midterm Presentation.
+
+### **Week 8 (October 13 - October 19)**
+**Goal:** Prepare for the Midterm Presentation 
+**Accomplished:** The core functionality such as the Create and Read features for the dynamic guestbook web application is working together. Prepared the live demo to showcase the guestbook web application functions properly.  
+**Next Step:**  Style the front-end with CSS.
