@@ -87,3 +87,16 @@ Next Step: Prepare for the Midterm Presentation.
 **Goal:** Prepare for the Midterm Presentation 
 **Accomplished:** The core functionality such as the Create and Read features for the dynamic guestbook web application is working together. Prepared the live demo to showcase the guestbook web application functions properly.  
 **Next Step:**  Style the front-end with CSS.
+
+### **Week 9 (October 20 - 26)**
+* **Goal:** Apply CSS styles provided by the professor and understand how they work.
+* **Accomplished (Oct 25):**
+    1. Noticed styles weren't applying. Realized my local repository was missing the `static` folder and `styles.css` file added by the professor on GitHub.
+    2. Tried to use **`git pull`** but got an error because I had unsaved local changes in `index.html` (where I had added the `<link>` tag).
+    3. Resolved the conflict using the following 3-step process in the terminal:
+        * Temporarily hid my local changes with **`git stash`**.
+        * Successfully downloaded the professor's changes (including the `static` folder and `styles.css`) using **`git pull`**.
+        * Checked `index.html` and saw the professor had **also** added the correct `<link>` tag, so my stashed change was no longer needed. I discarded it with **`git stash drop`**.
+    4. Confirmed that the CSS styles are now correctly applied to the application.
+    5. I ran the app with py app.py and noticed that the website looked different from before with the new css changes that were added.
+* **Next Step:** Continue studying the `styles.css` file and experiment with changes (Week 10).
