@@ -100,3 +100,16 @@ Next Step: Prepare for the Midterm Presentation.
     4. Confirmed that the CSS styles are now correctly applied to the application.
     5. I ran the app with py app.py and noticed that the website looked different from before with the new css changes that were added.
 * **Next Step:** Continue studying the `styles.css` file and experiment with changes (Week 10).
+
+### **Week 10 (October 27 - November 2)**
+* **Goal:** Study and experiment with the provided CSS.
+* **Accomplished (Oct 31):** Studied the `styles.css` file to understand its structure. I experimented with the code by making three main changes:
+    1.  I changed the `.header h1` color to `var(--accent)`, which successfully turned the main title green.
+    2.  I changed the `.entry-name` color to `var(--brand)`, which successfully turned the names in the message list blue.
+    3.  I then tried to change the submit button's background to green, which turned into a long troubleshooting session.
+* **Troubleshooting the Button:**
+    * The button remained white despite my changes. I confirmed my `styles.css` and `index.html` files were saved and the server was running the new code.
+    * The terminal showed a `200` success code, but my browser was still loading a cached, broken version.
+    * After trying `Ctrl+Shift+R` and Incognito, I realized the problem was CSS "specificity." The browser's default style was overriding my class.
+    * **The Fix:** I solved this by making my rule `button.btn-primary` and adding `background: green !important;`. This finally forced the browser to apply my custom style.
+* **Next Step:** Begin working on back-end error handling.

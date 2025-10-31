@@ -2,32 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>My Guestbook</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_v2.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>My Guestbook</h1>
-    
-    <form method="POST">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br><br>
+
+    <div class="container">
         
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message"></textarea><br><br>
-        
-        <button type="submit">Submit</button>
-    </form>
+        <div class="card">
+            
+            <div class="header">
+                <h1>My Guestbook</h1>
+                <p>Leave a message for everyone to see!</p>
+            </div>
 
-    <hr>
+            <form method="POST" class="guestbook-form">
+                
+                <div class="form-row form-row--name">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-row form-row--message">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <div class="actions">
+                    <button type="submit" class="btn-primary">Submit Message</button>
+                </div>
+            </form>
 
-    <h2>Messages</h2>
-    <ul>
-        {% for entry in entries %}
-            <li>
-                <strong>{{ entry.name }}:</strong> {{ entry.message }}
-            </li>
-        {% endfor %}
-    </ul>
+            <hr>
 
-</body>
+            <h2 class="section-title">Messages</h2>
+
+            <ul class="messages">
+                {% for entry in entries %}
+                    <li class="entry">
+                        <div class="entry-header">
+                            <span class="entry-name">{{ entry.name }}</span>
+                        </div>
+                        <p class="entry-message">{{ entry.message }}</p>
+                    </li>
+                {% endfor %}
+            </ul>
+
+        </div> </div> </body>
 </html>
