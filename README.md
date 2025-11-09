@@ -113,3 +113,8 @@ Next Step: Prepare for the Midterm Presentation.
     * After trying `Ctrl+Shift+R` and Incognito, I realized the problem was CSS "specificity." The browser's default style was overriding my class.
     * **The Fix:** I solved this by making my rule `button.btn-primary` and adding `background: green !important;`. This finally forced the browser to apply my custom style.
 * **Next Step:** Begin working on back-end error handling.
+
+### **Week 11 (November 3 - 9)**
+* **Goal:** Refine the back-end with error handling.
+* **Accomplished (Nov 9):** Implemented server-side validation to prevent empty submissions. I added a `SECRET_KEY` to `app.py` and used the `flash()` function to send an error message if the name or message fields are empty. I also updated `index.html` to display these flash messages, which correctly use the `.flash-error` style from the CSS.
+* **Next Step:** Begin final documentation review and updates for the final presentation.

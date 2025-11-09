@@ -12,6 +12,15 @@
         
         <div class="card">
             
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="flash flash-{{ category }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
             <div class="header">
                 <h1>My Guestbook</h1>
                 <p>Leave a message for everyone to see!</p>
@@ -26,8 +35,7 @@
                 
                 <div class="form-row form-row--message">
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
+<textarea id="message" name="message" required></textarea>                </div>
                 
                 <div class="actions">
                     <button type="submit" class="btn-primary">Submit Message</button>
@@ -49,5 +57,7 @@
                 {% endfor %}
             </ul>
 
-        </div> </div> </body>
+        </div> 
+    </div> 
+</body>
 </html>
