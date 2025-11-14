@@ -1,5 +1,60 @@
 # This is your README file.
 
+# Dynamic Guestbook Web Application
+
+This is a full-stack web application created for the **CIS 260 Field Project** course. It functions as a public guestbook where users can submit their name and a message, which is then saved to a database and displayed on the page.
+
+---
+
+## **Technologies Used**
+
+* **Back-End:** Python, Flask, Flask-SQLAlchemy
+* **Database:** SQLite
+* **Front-End:** HTML5, CSS3, Jinja2
+* **Version Control:** Git, GitHub
+
+---
+
+## **Core Features**
+
+* **Create:** Users can submit new messages via a web form.
+* **Read:** All submitted messages are fetched from the database and displayed on the homepage.
+* **Error Handling:** The application prevents empty submissions with both client-side (`required`) and server-side (`flash`) validation.
+* **Styling:** The front-end is styled using a custom CSS file provided by the professor and some modifications from the student as well.
+
+---
+
+## **How to Run This Project**
+
+To run this project on your local machine, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/anamrood/cis260-guestbook-project.git](https://github.com/anamrood/cis260-guestbook-project.git)
+    cd cis260-guestbook-project
+    ```
+
+2.  **Install dependencies:**
+    *(Assuming Python and pip are already installed)*
+    ```bash
+    pip install Flask flask-sqlalchemy
+    ```
+
+3.  **Create the database:**
+    *(This only needs to be run once.)*
+    ```bash
+    py create_db.py
+    ```
+
+4.  **Run the application:**
+    ```bash
+    py app.py
+    ```
+
+5.  **View the site:**
+    Open your web browser and go to `http://127.0.0.1:5000`.
+
+
 I have uploaded this for you, it is customary to have a README file within GitHub to insure that there is some documentation. Please let me know if you needed any other help. Also this is written in a language called "Markdown". I have linked it here [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 Please let me know if you needed any help. - Md Ali
@@ -117,4 +172,9 @@ Next Step: Prepare for the Midterm Presentation.
 ### **Week 11 (November 3 - 9)**
 * **Goal:** Refine the back-end with error handling.
 * **Accomplished (Nov 9):** Implemented server-side validation to prevent empty submissions. I added a `SECRET_KEY` to `app.py` and used the `flash()` function to send an error message if the name or message fields are empty. I also updated `index.html` to display these flash messages, which correctly use the `.flash-error` style from the CSS.
-* **Next Step:** Begin final documentation review and updates for the final presentation.
+* **Next Step:** Create the final, professional `README.md` documentation for the project.
+
+### **Week 12 (November 10 - 16)**
+* **Goal:** Write the complete, professional `README.md` documentation.
+* **Accomplished (Nov 14):** Replaced the simple weekly log with a complete project `README.md`. The new version includes a project objective, technology stack, core features, and a "How to Run" guide. The weekly log is now at the bottom of this file.
+* **Next Step:** Finalize all documentation and begin preparing for the final presentation.
