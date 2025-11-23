@@ -178,3 +178,8 @@ Next Step: Prepare for the Midterm Presentation.
 * **Goal:** Write the complete, professional `README.md` documentation.
 * **Accomplished (Nov 14):** Replaced the simple weekly log with a complete project `README.md`. The new version includes a project objective, technology stack, core features, and a "How to Run" guide. The weekly log is now at the bottom of this file.
 * **Next Step:** Finalize all documentation and begin preparing for the final presentation.
+
+### **Week 13 (November 17 - 23)**
+* **Goal:** Finalize project documentation and code review.
+* **Accomplished (Nov 23):** Reviewed the entire project to ensure all code comments are clear and accurate. Proofread the new `README.md` structure and verified that the "How to Run" instructions are correct. The project documentation is now complete and ready for final submission.
+* **Next Step:** Prepare for the Final Presentation.
