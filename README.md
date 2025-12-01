@@ -186,5 +186,5 @@ Next Step: Prepare for the Midterm Presentation.
 
 **Week 14 (November 24 - 30)**
 * **Goal:** Prepare materials and practice for the Final Presentation.
-* **Accomplished (Nov 30):** Created the final 10-slide PowerPoint presentation. This included outlining the project architecture, detailing the technical stack, and documenting the challenges faced (CSS specificity, Git conflicts). I also recorded a video demonstration of the working application to embed in the slides for a smoother presentation. 
+* **Accomplished (Nov 30):** Created the final PowerPoint presentation. This included outlining the project architecture, detailing the technical stack, and documenting the challenges faced (CSS specificity, Git conflicts). I also recorded a video demonstration of the working application to embed in the slides for a smoother presentation. 
 **Next Step:** Deliver the Final Presentation. 
