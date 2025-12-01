@@ -183,3 +183,8 @@ Next Step: Prepare for the Midterm Presentation.
 * **Goal:** Finalize project documentation and code review.
 * **Accomplished (Nov 23):** Reviewed the entire project to ensure all code comments are clear and accurate. Proofread the new `README.md` structure and verified that the "How to Run" instructions are correct. The project documentation is now complete and ready for final submission.
 * **Next Step:** Prepare for the Final Presentation.
+
+**Week 14 (November 24 - 30)**
+* **Goal:** Prepare materials and practice for the Final Presentation.
+* **Accomplished (Nov 30):** Created the final 10-slide PowerPoint presentation. This included outlining the project architecture, detailing the technical stack, and documenting the challenges faced (CSS specificity, Git conflicts). I also recorded a video demonstration of the working application to embed in the slides for a smoother presentation. 
+**Next Step:** Deliver the Final Presentation. 
